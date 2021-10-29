@@ -1,0 +1,25 @@
+#Python Basics For Begginers
+
+#printing first "hello world" program in python
+print("Hello World")
+
+#Comments In Python
+#This Is a Comment, We Write Comment With The "#" Sign
+
+# Variables In Python
+x = 20 #20 is a interger 
+y = "Rohan" #Rohan is a String
+print(x)
+print(y)
+#Above Are The Exaples For Variabls In Python
+
+#Data Types In Python
+#Some Of The Data Types Are String,Boolean,Integer,List And Many More
+
+# Exaples of Data Types
+x = 70 #Interger Data Type
+x = "John" #String Data Type
+x = True #Boolean Data Type
+x = ["apple","banana","cherry"] #list data type
+x = {"apple","banana","cherry"} #set In Python
+x = ("apple","banana","cherry") #Tuples In Python
