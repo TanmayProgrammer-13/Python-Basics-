@@ -1,0 +1,59 @@
+#Strings In Python
+# Strings in python are surrounded by either single quotation marks, or double quotation marks.
+
+str = "This Is a String"
+print(str)
+
+#Booleans In Python
+
+py = True #This Is a Boolean In Python
+#This States That py is True
+py = False
+#This States That py is False
+
+# Operators In python
+#  Basic Operaotrs In Python
+# +	Addition	x + y	
+# -	Subtraction	x - y	
+# *	Multiplication	x * y	
+# /	Division	x / y
+
+# Lists In Python
+# Lists are used to store multiple items in a single variable.
+mylist = ["Cherry","Banana","Apple"]
+print(mylist)
+
+#Tuples In Python
+# Tuples are used to store multiple items in a single variable.
+myTuple =  ("Cherry","Banana","Apple")
+print(myTuple)
+
+#Sets In python
+# Sets are used to store multiple items in a single variable.
+
+mySet = {"Cherry","Banana","Apple"}
+print(mySet)
+# Python Dictionaries
+# Dictionaries are used to store data values in key:value pairs.
+myDict = {
+    "car": "Lamborgini",
+    "color": "Yellow",
+    "model": "Aventador"
+}
+print(myDict)
+
+#If Else Statements In Python
+a = 60
+b = 90
+if a > b:
+    print("Hello Python")
+else:
+    print("I am Programming In Python Language")
+
+#elif in python
+a = 33
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
