@@ -1,0 +1,79 @@
+mySet = {"Cherry","Banana","Apple"}
+print(mySet)
+# Python Dictionaries
+# Dictionaries are used to store data values in key:value pairs.
+myDict = {
+    "car": "Lamborgini",
+    "color": "Yellow",
+    "model": "Aventador"
+}
+print(myDict)
+
+#If Else Statements In Python
+a = 60
+b = 90
+if a > b:
+    print("Hello Python")
+else:
+    print("I am Programming In Python Language")
+
+#elif in python
+a = 33
+b = 33
+if b > a:
+  print("b is greater than a")
+elif a == b:
+  print("a and b are equal")
+
+  #Loops In Python
+  #There Are Two Loops In Python-
+  #  1.While Loop
+  # 2. For Loop
+
+  #While Loops In python
+  #Printing Numbers 1 to 5
+  i = 1
+  while(i<6):
+    print(i)
+    i += 1
+    #For Loop In Python
+  x = 1
+  for x in range(1,6):
+    print(x)
+
+    for x in range(1,6):
+      print(x)
+      
+      #Funtions In Python
+      def my_Function():
+        print("This Is a Function")
+        my_Function()
+
+#Arrays In Python
+# Arrays Are Used To Store Multiple Values In One Variable
+myArr = ["Ford","Vovlvo","BMW"]
+print(myArr)
+x = myArr[0]
+print(x)
+
+#Clases In Python
+class MyClass:
+  x = 5
+  p1 = MyClass()
+  print(p1.x)
+
+  #The_init_function In Python
+class Person:
+  self.name = name
+  self.age = age
+
+  p1 = Person("John",36)
+
+  print(p1.name)
+  print(p1.age)
+
+  #Try And Except In Python
+  try:
+    print(x)
+  except:
+       print("An Exception Occured")
